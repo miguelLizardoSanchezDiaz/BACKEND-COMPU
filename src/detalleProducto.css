@@ -1,0 +1,151 @@
+.margin-t-b-detalle-producto {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.width-offers-detail {
+    width: 83px;
+}
+
+
+@media (max-width: 750px) {
+    .mbxs-20 {
+        margin-bottom: 20px;
+    }
+}
+
+
+.colorF9000 {
+    color: #F90000;
+}
+
+.colornegro {
+    color: #000;
+}
+
+.ml-15 {
+    margin-left: 15px;
+}
+
+.mr-15 {
+    margin-right: 15px;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}
+
+.mr-20 {
+    margin-right: 20px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.overflow-x {
+    overflow-x: hidden;
+}
+
+.font-bradcrumb {
+    font-size: 18px;
+}
+
+/* Estilo para la barra de progreso */
+.progress-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+    margin: 14px 0;
+    border: 1px solid #cacaca;
+}
+
+/* Estilo para el progreso dentro de la barra */
+.progress {
+    width: 70%;
+    height: 100%;
+    background-color: #008E0E;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* Estilo para el progreso dentro de la barra */
+
+.width-detalle {
+    max-width: 90px;
+    min-width: 90px;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.pad-1rem {
+    padding: 1rem;
+}
+
+.custom-checkbox {
+    appearance: none !important;
+    width: 24px;
+    height: 24px;
+    border: 2px solid #ccc !important;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    outline: none;
+}
+
+.custom-checkbox:checked {
+    background-color: #520fda;
+    border-color: #520fda;
+}
+
+.custom-checkbox::after {
+    content: '';
+    position: absolute;
+    left: 5px;
+    width: 6px;
+    height: 13px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg) translateY(-10%);
+    top: 2px;
+}
+
+.gap-8{
+    gap: 8px;
+}
+
+.pad-bottom-24{
+    padding-bottom: 24px;
+}
+
+.background-f5f5f5{
+background-color: #f5f5f5;
+}
+
+.slider-benefits{
+    display: block;
+}
+
+@media (min-width: 750px) {
+    .container-40 {
+        width: 40%;
+    }
+
+    .container-48 {
+        width: 48%;
+    }
+
+    .slider-benefits{
+        display: none;
+    }
+}
